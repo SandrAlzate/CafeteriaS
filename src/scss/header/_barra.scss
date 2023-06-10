@@ -16,5 +16,8 @@
             width: 20rem;
             margin: 0 auto;
         }
+        @include m.desktop { 
+            margin: unset;
+        }
     }
 }

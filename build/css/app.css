@@ -516,6 +516,11 @@ h2::after, .heading-blanco::after {
     margin: 0 auto;
   }
 }
+@media (min-width: 1024px) {
+  .barra .logo {
+    margin: unset;
+  }
+}
 
 .contenido-principal {
   background-color: #ffffff;
