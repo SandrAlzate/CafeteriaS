@@ -1,9 +1,9 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
-.contenido-principal {
+.contenido-inicial{
     background-color: v.$blanco;
-    padding: 2rem;
+    padding: 3rem;
 
     @include m.tablet { 
         padding: 10rem;
