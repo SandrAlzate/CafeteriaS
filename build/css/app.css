@@ -393,7 +393,8 @@ h2::after, .heading-blanco::after {
 .heading-blanco::after {
   display: none;
 }
-.heading-blanco h3 {
+
+.h3 {
   font-size: 3.2rem;
 }
 
@@ -827,20 +828,22 @@ h2::after, .heading-blanco::after {
 }
 .proceso-cafe .imagen,
 .proceso-cafe .texto {
+  flex: 1;
+}
+.proceso-cafe .texto {
   margin-top: 1rem;
 }
-.proceso-cafe .imagen h3,
 .proceso-cafe .texto h3 {
   margin: 0;
   text-align: left;
   color: #5e311e;
+  font-size: 2.5rem;
 }
-.proceso-cafe .imagen h3::after,
 .proceso-cafe .texto h3::after {
   content: "";
   display: block;
   width: 50%;
-  height: 2px;
+  height: 4px;
   background-color: #c39c63;
 }
 
