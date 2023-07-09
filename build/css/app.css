@@ -897,14 +897,11 @@ h2::after, .heading-blanco::after {
   font-size: 2.2rem;
   font-weight: 700;
 }
-.formulario .campo input [type=text] select,
-.formulario .campo input [type=time] select,
-.formulario .campo input [type=date] select,
-.formulario .campo input [type=email] select,
-.formulario .campo input:not([type=submit]) select {
-  width: 100;
+.formulario .campo input:not([type=submit]),
+.formulario .campo select {
+  width: 100%;
   padding: 1rem;
-  border: 5rem solid #5e311e;
+  border: 0.5rem solid #5e311e;
 }
 .formulario .campo input[type=submit] {
   background-color: #5e311e;

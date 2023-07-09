@@ -26,18 +26,11 @@
       font-weight: 700;
     }
 
-    input [type="text"],
-    input [type="time"],
-    input [type="date"],
-    input [type="email"],
-
-    
-    input:not([type="submit"]) {
-      select {
-        width: 100;
+    input:not([type="submit"]),
+    select {
+        width: 100%;
         padding: 1rem;
-        border: 5rem solid v.$primario;
-      }
+        border: 0.5rem solid v.$primario;
     }
 
     input[type="submit"] {
