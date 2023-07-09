@@ -14,7 +14,7 @@
     @include m.tablet { 
         @include m.grid (2,v.$separacion);
         aspect-ratio: 16 / 6;
-        background-size: 40%;
+        background-size: 50%;
         background-position: center right;
     }
 
