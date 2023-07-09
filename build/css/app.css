@@ -796,6 +796,9 @@ h2::after, .heading-blanco::after {
   border: 3rem solid #ffffff;
   box-shadow: 9px 10px 5px -7px rgba(0, 0, 0, 0.35);
 }
+.contenido-principal .texto {
+  margin-top: 2rem;
+}
 .contenido-principal .texto blockquote {
   margin: 0;
   padding: 1rem;
